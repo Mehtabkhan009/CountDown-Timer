@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Inter&family=Nunito:wght@300;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.timmer_wrapper{
+    min-height: 100vh;
+    background-image: url(../images/kelly-sikkema-RCpEWDyC5sQ-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.main_text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.main_text h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.time-remaning{
+    display: flex;
+
+}
+.time-remaning div{
+    padding: 2rem 1.5rem 1rem 1.5rem;
+}
+.time-remaning div h2{
+    font-size: 3.4rem;
+    line-height: 1;
+  
+}
+.time-remaning div span{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+@media(max-width:576px) {
+    .main_text{
+        color: rgb(255, 255, 255);
+    }
+    .main_text h1{
+        font-size: 2rem;
+    }
+    .time-remaning div{
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    .time-remaning div{
+        padding: .8rem .4rem .8rem .4rem;
+    }
+    .time-remaning div h2{
+        font-size: 2rem;
+      
+    }
+    .time-remaning div span{
+        font-size: 1rem;
+    }
+    
+}
